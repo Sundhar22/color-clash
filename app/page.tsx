@@ -32,7 +32,8 @@ const generateWords = () => {
     .slice(0, wordsPerRow);
   
   // Step 2: Create all possible valid combinations
-  let combinations = [];
+// @ts-ignore
+let combinations = [];
   
   // Generate all permutations where color name ≠ display color
   selectedColors.forEach(color => {
